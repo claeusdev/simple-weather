@@ -1,0 +1,29 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add request
+
+PATH: 
+  /home/claeus/.rbenv/plugins/ruby-build/bin:/home/claeus/.rbenv/shims:/home/claeus/.rbenv/bin:/home/claeus/bin:/home/claeus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object._errnoException (util.js:992:11)
+      at errnoException (dns.js:55:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
